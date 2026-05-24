@@ -7,9 +7,6 @@ website:
   navbar:
     logo: images/logo.png
     logo-alt: "Eurocontrol Logo"
-    left:
-      - href: index.qmd
-        text: Home
   search:
     location: navbar
     type: overlay
@@ -45,9 +42,7 @@ website:
 
 format:
   html:
-    theme:
-      light: cosmo
-      dark: superhero
+    theme: cosmo
     css: styles.css
     toc: true
     toc-depth: 3
