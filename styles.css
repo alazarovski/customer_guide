@@ -476,31 +476,20 @@ img {
   background-color: var(--card-bg) !important;
   border-bottom: 1px solid var(--border-color) !important;
   box-shadow: var(--shadow-sm) !important;
-  padding: 0.6rem 1rem !important;
 }
 
-/* Style the sidebar button toggle in the mobile nav strip */
-.quarto-btn-toggle {
-  border: 1px solid var(--brand-secondary) !important;
-  border-radius: 6px !important;
-  padding: 0.4rem 0.8rem !important;
-  background-color: var(--state-bg) !important;
+/* Style the sidebar button toggle in the mobile nav strip - COLOR ONLY, no layout overrides */
+.quarto-btn-toggle, button.quarto-btn-toggle {
   color: var(--brand-primary) !important;
-  display: inline-flex !important;
-  align-items: center !important;
 }
 
-.quarto-dark .quarto-btn-toggle {
-  border-color: var(--brand-secondary) !important;
-  background-color: rgba(0, 135, 209, 0.15) !important;
+.quarto-dark .quarto-btn-toggle, .quarto-dark button.quarto-btn-toggle {
   color: var(--brand-secondary) !important;
 }
 
-/* Ensure the icon inside the mobile toggle is visible and matches branding colors */
+/* Ensure the icon inside the mobile toggle matches branding colors */
 .quarto-btn-toggle i {
   color: var(--brand-primary) !important;
-  font-weight: 700 !important;
-  font-size: 1.15rem !important;
 }
 
 .quarto-dark .quarto-btn-toggle i {
@@ -512,8 +501,6 @@ img {
   color: var(--text-color) !important;
   font-family: 'Outfit', sans-serif !important;
   font-weight: 500 !important;
-  font-size: 0.9rem !important;
-  margin-left: 0.75rem !important;
 }
 
 /* Style Quarto Sidebar Drawer on Mobile & Desktop */
