@@ -453,7 +453,7 @@ img {
 /* ========================================== */
 
 /* Make toggle buttons (Burger Menu & head menu) clearly visible on mobile */
-.quarto-btn-toggle, .quarto-navigation-tool, .navbar-toggler, .navbar-toggler-icon {
+.quarto-btn-toggle, .quarto-navigation-tool, .navbar-toggler {
   color: var(--brand-primary) !important;
   transition: all 0.2s ease !important;
 }
@@ -462,17 +462,58 @@ img {
   color: var(--brand-secondary) !important;
 }
 
-/* Ensure button stands out visually as a clickable interface item */
-.quarto-btn-toggle {
-  border: 1px solid var(--border-color) !important;
-  border-radius: 6px !important;
-  padding: 0.35rem 0.65rem !important;
-  background-color: var(--state-bg) !important;
+/* Override the Bootstrap hamburger SVG background stroke color directly! */
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 90, 156, 1)' stroke-width='2.5' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
 }
 
-.quarto-btn-toggle:hover {
-  background-color: var(--brand-light) !important;
+.quarto-dark .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 135, 209, 1)' stroke-width='2.5' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
+}
+
+/* Make sure the mobile secondary navbar (the strip with the sidebar toggle) looks distinct */
+.quarto-secondary-nav {
+  background-color: var(--card-bg) !important;
+  border-bottom: 1px solid var(--border-color) !important;
+  box-shadow: var(--shadow-sm) !important;
+  padding: 0.6rem 1rem !important;
+}
+
+/* Style the sidebar button toggle in the mobile nav strip */
+.quarto-btn-toggle {
+  border: 1px solid var(--brand-secondary) !important;
+  border-radius: 6px !important;
+  padding: 0.4rem 0.8rem !important;
+  background-color: var(--state-bg) !important;
+  color: var(--brand-primary) !important;
+  display: inline-flex !important;
+  align-items: center !important;
+}
+
+.quarto-dark .quarto-btn-toggle {
   border-color: var(--brand-secondary) !important;
+  background-color: rgba(0, 135, 209, 0.15) !important;
+  color: var(--brand-secondary) !important;
+}
+
+/* Ensure the icon inside the mobile toggle is visible and matches branding colors */
+.quarto-btn-toggle i {
+  color: var(--brand-primary) !important;
+  font-weight: 700 !important;
+  font-size: 1.15rem !important;
+}
+
+.quarto-dark .quarto-btn-toggle i {
+  color: var(--brand-secondary) !important;
+}
+
+/* Quarto breadcrumbs in mobile nav bar */
+.quarto-secondary-nav .quarto-page-breadcrumbs {
+  color: var(--text-color) !important;
+  font-family: 'Outfit', sans-serif !important;
+  font-weight: 500 !important;
+  font-size: 0.9rem !important;
+  margin-left: 0.75rem !important;
 }
 
 /* Style Quarto Sidebar Drawer on Mobile & Desktop */
@@ -499,6 +540,15 @@ img {
   justify-content: space-between;
   align-items: center;
   transition: all 0.2s ease;
+}
+
+/* Mobile-specific drawer link size enhancements for easy tapping (tap target compliance) */
+@media (max-width: 768px) {
+  #quarto-sidebar a.sidebar-link {
+    font-size: 1.05rem !important;
+    padding: 0.75rem 1rem !important;
+    margin: 0.35rem 0 !important;
+  }
 }
 
 /* Hover state for link items */
