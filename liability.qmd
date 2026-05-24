@@ -1,0 +1,59 @@
+---
+title: "Part D. Liability of Charges"
+---
+
+The aircraft operator at the time the flight was performed is liable to pay the charge. If the identity of the operator is unknown, the owner of the aircraft is regarded as the operator unless they prove that another entity was operating the flight.
+
+## Operator Identification
+
+The operator is identified via the ICAO Flight Plan:
+1.  **ICAO Designator**: By the three-letter ICAO designator entered in **Field 7 (Aircraft Identification)** of the flight plan. Operators must only use designators officially allocated to them.
+2.  **Aircraft Registration**: By the aircraft registration mark entered in **Field 7** in all other cases.
+
+---
+
+## Required Billing Information
+
+Operators must provide the CRCO with the following details for billing:
+
+*   **Legal Name & Address**: Your company's legal and fiscal address.
+*   **Billing Address**: If different from the legal address.
+*   **Handling Agency Details**: You may request the CRCO to send billing documents directly to a handling agent (marked as "care of" in the billing address).
+*   **Value Added Tax (VAT) Status**:
+    *   **EU Businesses (B2B)**: Provide your EU VAT Identification Number.
+    *   **Non-EU Businesses**: Provide an original, certified, and stamped document from your National Tax Authority confirming your VAT or fiscal registration number.
+
+::: {.callout-tip}
+If you have a CEFA account, you can update your legal and billing information online. Any updates should be notified without delay.
+:::
+
+---
+
+## D.1. Exemptions
+
+Certain categories of flights qualify for exemption from air navigation charges (e.g., military, search and rescue, training, or flights under a certain weight limit, depending on State policies). 
+
+Exemptions are detailed in **Article 8 of the *Conditions of Application of the Route Charges System***. The latest conditions can be downloaded here: [Conditions of Application & Payment](https://www.eurocontrol.int/publication/conditions-application-route-charges-system-andconditions-payment).
+
+---
+
+## D.2. Value Added Tax (VAT)
+
+Air navigation services in the charging zones of EUROCONTROL Member States may be subject to VAT. EUROCONTROL invoices VAT on behalf of taxable service providers in accordance with agreements with the States concerned.
+
+Detailed tax information is available in the latest *Information Circular on Value Added Tax (route charges)*.
+
+### D.2.1. EU VAT Rules
+
+Following the EU VAT Directive 2006/112/EC, the **place of supply of services** determines the tax liability:
+
+| Transaction Type | Customer Location | Place of Supply | VAT Applied by EUROCONTROL? |
+|---|---|---|:---:|
+| **B2C (Business to Consumer)** | Any | Location of service provider (ANSP) | **Yes** (ANSP Local VAT) |
+| **B2B (Business to Business)** | Same EU State as ANSP | Location of customer (ANSP State) | **Yes** (ANSP Local VAT) |
+| **B2B (Business to Business)** | Different EU State | Location of customer (Reverse Charge) | **No** (Customer accounts for VAT) |
+| **B2B (Business to Business)** | Outside the EU | Location of customer (Non-EU territory) | **No** |
+
+### D.2.2. Non-EU VAT
+
+For taxable air navigation service providers established **outside the European Union**, the place of supply is the place where the service provider is established. Local VAT rules of the non-EU provider apply.

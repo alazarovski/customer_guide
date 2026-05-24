@@ -1,0 +1,52 @@
+---
+title: "Customer Guide to Charges"
+---
+
+::: {.cover-card}
+# Central Route Charges Office
+<div class="subtitle">Customer Guide to Charges</div>
+<div class="version">April 2026 Edition</div>
+:::
+
+## Welcome
+
+This website presents the **EUROCONTROL CRCO Customer Guide to Charges**, which provides detailed information on the different charges levied by the Central Route Charges Office (CRCO), billing documents, payment procedures, and submission of claims.
+
+## The Mission of the CRCO
+
+The Central Route Charges Office (CRCO) runs an efficient system for the cost recovery of air traffic services made available to aircraft operators. 
+
+On behalf of EUROCONTROL’s Member States, the CRCO:
+*   **Bills and collects route charges** that fund air navigation facilities and services and supports Air Traffic Management developments (see [Part A: Route Charges](charges.qmd#a.1.-route-charges)).
+*   **Provides a single consolidated monthly bill** in EUR, no matter how many EUROCONTROL Member States were overflown.
+*   **Bills and collects terminal charges** on a bilateral basis on behalf of participating Member States (see [Part A: Terminal Charges](charges.qmd#a.2.-terminal-charges)).
+*   **Bills and collects air navigation charges** on behalf of non-Member States (see [Part A: Air Navigation Charges](charges.qmd#a.3.-air-navigation-charges)).
+*   **Bills and collects communication charges** in the Shanwick area (see [Part A: Communication Charges](charges.qmd#a.4.-communication-charges)).
+
+The billing and recovery of air navigation charges by EUROCONTROL is indispensable in ensuring that air navigation facilities and services are steadily financed and safely operated, paving the way for the future evolution of the pan-European Air Traffic Management (ATM) system in the context of the Single European Sky and the European ATM Master Plan (SESAR).
+
+::: {.callout-note}
+### Official Documents Notice
+This document is published by EUROCONTROL for information purposes. While reasonable efforts have taken place to ensure the information is complete and accurate as of the date of publication, EUROCONTROL does not make any warranties or representations as to the accuracy, completeness, or fitness for a particular purpose of the information contained herein. 
+
+In the event of any conflict or discrepancy between the information in this guide and any official EUROCONTROL document, the users shall exclusively refer to the official document.
+:::
+
+---
+
+::: {.callout-warning appearance="default" icon=true}
+## FRAUD WARNING!
+
+**Fraudsters may attempt to contact you, claiming that EUROCONTROL bank accounts have changed, and try to persuade you to make payments to fake bank accounts.**
+
+*   **Treat any communication with suspicion**, especially if you are asked for financial information about your account or if a new bank account is communicated to you!
+*   **No Bank Account Changes Planned**: EUROCONTROL has no plan to open new bank accounts in the foreseeable future and **never** communicates bank account numbers by e-mail, fax or telephone.
+*   **Official Sources Only**: Under no circumstances should you pay into any bank account other than those referenced on the official EUROCONTROL billing documents. Never accept any other source of information.
+*   **Verification**: If in doubt, contact us immediately at **+32.2.729.38.38**.
+
+For increased security, we strongly advise you to use our **CEFA portal**, which allows you to download your billing documents, consult your account’s latest status, submit modifications of aircraft data, or introduce claims and monitor their status. Learn more in the [CEFA Portal section](tools.qmd#f.1.-crco-cefa-portal).
+:::
+
+## Online Resources
+
+The CRCO pages on EUROCONTROL’s public website give additional information and contain the latest updates for all items featured in this Customer Guide: [http://www.eurocontrol.int/crco](http://www.eurocontrol.int/crco)

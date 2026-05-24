@@ -1,0 +1,22 @@
+# Ignore everything by default
+*
+*/**
+
+# Allow directories
+!*/
+!images/
+!site_libs/
+
+# Allow configuration and styles
+!.gitignore
+!_quarto.yml
+!styles.css
+!search.json
+
+# Allow Quarto sources and compiled HTML
+!*.html
+!*.qmd
+
+# Allow files inside images and site_libs
+!images/**
+!site_libs/**

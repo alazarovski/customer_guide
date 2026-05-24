@@ -1,0 +1,336 @@
+/* Custom styles for the CRCO Manual */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap');
+
+/* Brand Variables */
+:root {
+  --brand-primary: #005a9c;      /* Eurocontrol Deep Blue */
+  --brand-secondary: #0087d1;    /* Accent Blue */
+  --brand-light: #f5f9fc;        /* Light Grey-Blue */
+  --brand-dark: #0b1a26;
+  --text-dark: #1e293b;
+  --border-color: #e2e8f0;
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  color: var(--text-dark);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Outfit', sans-serif;
+  color: #0f172a;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+h1 {
+  font-weight: 700;
+  border-bottom: 2px solid var(--border-color);
+  padding-bottom: 0.5rem;
+  margin-top: 2rem;
+}
+
+h2 {
+  font-weight: 600;
+  margin-top: 1.75rem;
+}
+
+/* Navbar & Sidebar Customizations */
+.navbar {
+  box-shadow: var(--shadow-sm);
+  border-bottom: 1px solid var(--border-color);
+}
+
+.sidebar {
+  font-size: 0.95rem;
+  border-right: 1px solid var(--border-color);
+}
+
+/* Cover Card Design */
+.cover-card {
+  background: linear-gradient(135deg, #0b1a26 0%, #005a9c 100%);
+  color: white;
+  border-radius: 12px;
+  padding: 3rem 2rem;
+  margin-bottom: 2rem;
+  box-shadow: var(--shadow-lg);
+  position: relative;
+  overflow: hidden;
+}
+
+.cover-card::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: radial-gradient(circle at 80% 20%, rgba(0, 135, 209, 0.2) 0%, transparent 60%);
+  pointer-events: none;
+}
+
+.cover-card h1 {
+  color: white;
+  border: none;
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin: 0;
+  padding: 0;
+}
+
+.cover-card .subtitle {
+  font-size: 1.25rem;
+  color: #93c5fd;
+  margin-top: 0.5rem;
+  font-family: 'Outfit', sans-serif;
+}
+
+.cover-card .version {
+  display: inline-block;
+  margin-top: 1.5rem;
+  background: rgba(255, 255, 255, 0.15);
+  padding: 0.25rem 0.75rem;
+  border-radius: 9999px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  backdrop-filter: blur(4px);
+}
+
+/* Callouts Styling */
+.callout {
+  border-radius: 8px;
+  box-shadow: var(--shadow-sm);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.callout:hover {
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-md);
+}
+
+.callout-warning {
+  border-left-color: #ea580c !important;
+}
+
+/* Grid Layout for Lists */
+.state-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 0.75rem;
+  margin: 1.5rem 0;
+}
+
+.state-item {
+  background: #f8fafc;
+  border: 1px solid var(--border-color);
+  padding: 0.5rem 0.75rem;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.2s ease;
+}
+
+.state-item:hover {
+  background: var(--brand-light);
+  border-color: var(--brand-secondary);
+  color: var(--brand-primary);
+  font-weight: 500;
+}
+
+.state-code {
+  font-weight: 700;
+  color: #64748b;
+  font-size: 0.8rem;
+  background: #e2e8f0;
+  padding: 0.1rem 0.35rem;
+  border-radius: 4px;
+}
+
+/* Dark mode overrides for grid */
+.dark-mode .state-item {
+  background: #1e293b;
+  border-color: #334155;
+  color: #f8fafc;
+}
+
+.dark-mode .state-item:hover {
+  background: rgba(0, 90, 156, 0.2);
+  border-color: var(--brand-secondary);
+  color: #60a5fa;
+}
+
+.dark-mode .state-code {
+  background: #334155;
+  color: #94a3b8;
+}
+
+/* Tables Formatting */
+table.table {
+  border-collapse: separate;
+  border-spacing: 0;
+  width: 100%;
+  margin: 1.5rem 0;
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+}
+
+table.table th {
+  background-color: #f1f5f9;
+  color: #334155;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  letter-spacing: 0.05em;
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid var(--border-color);
+}
+
+table.table td {
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid var(--border-color);
+  font-size: 0.9rem;
+}
+
+table.table tr:last-child td {
+  border-bottom: none;
+}
+
+table.table tbody tr:hover td {
+  background-color: var(--brand-light);
+}
+
+.dark-mode table.table th {
+  background-color: #1e293b;
+  color: #cbd5e1;
+  border-bottom-color: #334155;
+}
+
+.dark-mode table.table td {
+  border-bottom-color: #334155;
+}
+
+.dark-mode table.table tbody tr:hover td {
+  background-color: rgba(30, 41, 59, 0.5);
+}
+
+/* Math blocks styling */
+.math.display {
+  background: #f8fafc;
+  padding: 1rem;
+  border-radius: 8px;
+  border: 1px solid var(--border-color);
+  margin: 1.5rem 0;
+  box-shadow: var(--shadow-sm);
+}
+
+.dark-mode .math.display {
+  background: #1e293b;
+  border-color: #334155;
+}
+
+/* Contacts Layout */
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.contact-card {
+  border: 1px solid var(--border-color);
+  border-radius: 10px;
+  padding: 1.5rem;
+  background: white;
+  box-shadow: var(--shadow-sm);
+  transition: all 0.2s ease;
+}
+
+.contact-card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+  border-color: var(--brand-secondary);
+}
+
+.contact-card h3 {
+  margin-top: 0;
+  color: var(--brand-primary);
+  border-bottom: 2px solid var(--brand-light);
+  padding-bottom: 0.5rem;
+}
+
+.contact-info-list {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0 0 0;
+}
+
+.contact-info-item {
+  margin-bottom: 0.75rem;
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+}
+
+.contact-info-label {
+  font-weight: 600;
+  color: #64748b;
+  width: 80px;
+  display: inline-block;
+}
+
+/* Legend items for Annex C */
+.legend-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+  background: #f8fafc;
+  padding: 1.25rem;
+  border-radius: 8px;
+  border: 1px solid var(--border-color);
+  margin-top: 1.5rem;
+}
+
+.dark-mode .legend-grid {
+  background: #1e293b;
+  border-color: #334155;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-size: 0.9rem;
+}
+
+.legend-icon {
+  width: 32px;
+  height: 16px;
+  display: inline-block;
+  flex-shrink: 0;
+}
+
+/* Document Code badges */
+.badge-doc {
+  font-size: 0.85rem;
+  font-weight: 700;
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+  color: white;
+}
+
+.badge-route { background-color: #3b82f6; }
+.badge-terminal { background-color: #10b981; }
+.badge-nav { background-color: #f59e0b; }
+.badge-comm { background-color: #8b5cf6; }
+.badge-credit { background-color: #ef4444; }
+.badge-info { background-color: #6b7280; }

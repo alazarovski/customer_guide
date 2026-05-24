@@ -1,0 +1,233 @@
+[
+  {
+    "objectID": "contacts.html",
+    "href": "contacts.html",
+    "title": "Contacts",
+    "section": "",
+    "text": "For any questions, visit the EUROCONTROL CRCO Portal or contact the relevant department directly.\n\n\nBilling, Claims & Stakeholder Relations\nContact this department (Unit R3) if: * You have a question concerning your invoice. * You want to report a change to your aircraft fleet. * You want to lodge a claim about wrongly billed flights. * You want to report a fraud attempt. * You need to update your legal/fiscal info (address, VAT number, AOC, etc.). * You want to check applicable tariffs or exemptions.\n\n\nPhone +32 2 729 3838\n\n\nFax +32 2 729 9093\n\n\nEmail r3.crco@eurocontrol.int\n\n\n\n\nCollection of Charges\nContact this department (Unit R4) if: * You want to know your current account balance. * You have a question about a reminder regarding arrears received from EUROCONTROL.\n\n\nPhone +32 2 729 3296\n\n\nFax +32 2 729 9094\n\n\nEmail r4.crco@eurocontrol.int\n\n\n\n\nAccounting & Treasury\nContact this department (Unit R5) if: * You have a question about your statement of account. * You made a mistake when paying (wrong currency, wrong amount). * You want to confirm that a payment reached EUROCONTROL’s bank account. * You need a bank account certificate to proceed with a payment. * Your auditors require an official statement of account.\n\n\nPhone +32 2 729 9164 / 0020 / 4642 / +32 2 730 2501\n\n\nFax +32 2 729 9095\n\n\nEmail r5.crco@eurocontrol.int"
+  },
+  {
+    "objectID": "payment.html",
+    "href": "payment.html",
+    "title": "Part C. Payment of Charges",
+    "section": "",
+    "text": "All charges billed by EUROCONTROL are issued on the same date monthly, and payment must be received at the latest 30 days from the issue date of the bill. Due dates and bank details are printed on each bill."
+  },
+  {
+    "objectID": "payment.html#c.1.-general-remarks",
+    "href": "payment.html#c.1.-general-remarks",
+    "title": "Part C. Payment of Charges",
+    "section": "C.1. General Remarks",
+    "text": "C.1. General Remarks\n\n\n\n\n\n\nSecurity and Fraud Prevention\n\n\n\n\nOfficial Bank Accounts Only: Pay only into bank accounts listed on bills or statements downloaded directly from CEFA, or received by post on secured paper bearing the EUROCONTROL logo.\nSecurity Policy: EUROCONTROL never communicates bank account numbers by e-mail, fax, or telephone.\nReport Suspicious Activity: If you suspect a fraudulent payment request, contact us immediately at +32.2.729.38.38.\n\n\n\n\nSeparate Accounts: There are separate bank accounts for the route charges system and for each State under terminal, air navigation, and communication charges.\nTransfer Fees: All bank charges are borne by the user. EUROCONTROL credits operator accounts with the net amount received on its bank accounts.\nPayment Date: Payments are deemed received on the value date on which they are credited to EUROCONTROL’s bank account."
+  },
+  {
+    "objectID": "payment.html#c.2.-payment-by-bank-transfer",
+    "href": "payment.html#c.2.-payment-by-bank-transfer",
+    "title": "Part C. Payment of Charges",
+    "section": "C.2. Payment by Bank Transfer",
+    "text": "C.2. Payment by Bank Transfer\n\nPayment Details: Ensure payments are in the correct currency, to the correct bank account, and quote the reference of the statement of account or bill.\nInterest Payments: No bill reference is required for Interest on Late Payment (IOLP) bills; specify the word “Interest” in the transfer details. Payments will be allocated to the oldest interest bill first.\nPayment Allocation: In the absence of a remittance advice, payments are automatically allocated first to the oldest outstanding bills, and then to interest.\nRemittance Advice: Send payment details and allocation instructions to r5.crco@eurocontrol.int."
+  },
+  {
+    "objectID": "payment.html#c.3.-payment-by-credit-card",
+    "href": "payment.html#c.3.-payment-by-credit-card",
+    "title": "Part C. Payment of Charges",
+    "section": "C.3. Payment by Credit Card",
+    "text": "C.3. Payment by Credit Card\nAircraft operators can pay bills via credit card. Currently, only Visa and Mastercard are accepted.\n\n\n\n\n\n\nWarning\n\n\n\nInterest On Late Payments (IOLP) bills cannot be paid by credit card.\n\n\n\nC.3.1. Procedure\nTo pay bills using a credit card:\n\nLog in to your CEFA account.\nRegister a Credit Card:\n\nNavigate to the “Billing Information” screen.\nScroll to the “Credit Cards linked to your account” box.\nApprove the Terms & Conditions.\nClick “Register a new credit card” and follow the prompts.\nNote: A temporary test transaction of 0.01 EUR is processed to verify the card (not charged). Up to 3 cards can be registered per user.\n\nNavigate to Detailed Financial Situation:\n\nLocate the “Pay by Credit Card” button at the top right.\n\nSelect Payment Option:\n\n\nOption A: Pay Individual BillsOption B: Recurring Payment Instructions\n\n\n\nSelect individual bills to pay.\nChoose the registered credit card.\nClick “Confirm payment instructions” (bottom right).\nBills will appear greyed out until the transaction is fully processed.\n\n\n\n\nSet up automated payments.\nLink specific credit cards to specific charge systems (e.g., Route, France Terminal, etc.).\nCards are charged twice a month (around the 6th and 28th) to ensure settlement before the due date.\n\n\n\n\n\n\nImportant Card Rules\n\nAdmin Fee: A 3% administration fee is added to the bill total to cover third-party card provider costs.\nProcessing Time: Credit card payments can take up to 5 working days to reflect on your statement of account.\nDeclined Transactions: If a transaction is declined, it will be cancelled. Persistent declines will result in the cancellation of recurrent payment instructions."
+  },
+  {
+    "objectID": "annexes.html",
+    "href": "annexes.html",
+    "title": "Annexes",
+    "section": "",
+    "text": "This section provides a concrete calculation example for a flight overflown across multiple charging zones.\n\n\n\nFlight Connection: LEBL (Barcelona BCN) \\(\\rightarrow\\) EKCH (Copenhagen CPH)\nAircraft MTOW: 77.0 metric tonnes\nFlight Date: 11 December 2024\n\n\n\n\nLEBL SIDOKABI UN861 FISTO UY156 ADABI UN858 VANAD UN874 VEKIN UN873 ADUTO/N0450F350 \nUN873 HELEN/N0448F360 UN873 SPY/N0448F350 UN873 GRONY/N0445F370 UN873 JUIST UP729 \nBATOB/N0439F390 UP729 DOSUR P729 TUDLO STAR EKCH\n\n\n\nOKABI TOU FISTO PERIG FOUCO ADABI BOKNO DEVRO VANAD VADOM BAMES KOPOR MTD NURMO \nPERON CMB VEKIN ADUTO FERDI HELEN TOLEN STD EKROS SPY BETUS ANDIK KEKIX GRONY \nBEDUM LABIL JUIST DHE BATOB DOSUR TALSA TUDLO\nBased on this routing, the following distances are established in the charging zones concerned:\n\nSpain (LE): 115 km \\(\\rightarrow\\) Distance Factor: 1.15\nFrance (LF): 905 km \\(\\rightarrow\\) Distance Factor: 9.05\nBelgium (EB): 87 km \\(\\rightarrow\\) Distance Factor: 0.87\nNetherlands (EH): 322 km \\(\\rightarrow\\) Distance Factor: 3.22\nGermany (ED): 219 km \\(\\rightarrow\\) Distance Factor: 2.19\nDenmark (EK): 214 km \\(\\rightarrow\\) Distance Factor: 2.14\n\n\n\n\nTaking the highest certificated MTOW of 77.0 metric tonnes, the weight factor is: \\[\\text{Weight Factor} = \\sqrt{\\frac{77.0}{50}} = \\sqrt{1.54} \\approx 1.24\\]\n\n\n\nThe table below summarizes the calculation steps per charging zone overflown:\n\n\n\n\n\n\n\n\n\n\n\n\n\nState\nDistance Factor\n\nWeight Factor\n\nUnit Rate (EUR)\n\nCharge (EUR)\n\n\n\n\nSpain (LE)\n1.15\n\\(\\times\\)\n1.24\n\\(\\times\\)\n62.73\n\\(=\\)\n89.45\n\n\nFrance (LF)\n9.05\n\\(\\times\\)\n1.24\n\\(\\times\\)\n70.99\n\\(=\\)\n796.65\n\n\nBelgium (EB)\n0.87\n\\(\\times\\)\n1.24\n\\(\\times\\)\n112.19\n\\(=\\)\n121.03\n\n\nNetherlands (EH)\n3.22\n\\(\\times\\)\n1.24\n\\(\\times\\)\n95.26\n\\(=\\)\n380.35\n\n\nGermany (ED)\n2.19\n\\(\\times\\)\n1.24\n\\(\\times\\)\n80.25\n\\(=\\)\n217.93\n\n\nDenmark (EK)\n2.14\n\\(\\times\\)\n1.24\n\\(\\times\\)\n67.53\n\\(=\\)\n179.20\n\n\nTotal\n\n\n\n\n\n\\(=\\)\n1,784.61"
+  },
+  {
+    "objectID": "annexes.html#annex-a.-eurocontrol-route-charge-calculation-example",
+    "href": "annexes.html#annex-a.-eurocontrol-route-charge-calculation-example",
+    "title": "Annexes",
+    "section": "",
+    "text": "This section provides a concrete calculation example for a flight overflown across multiple charging zones.\n\n\n\nFlight Connection: LEBL (Barcelona BCN) \\(\\rightarrow\\) EKCH (Copenhagen CPH)\nAircraft MTOW: 77.0 metric tonnes\nFlight Date: 11 December 2024\n\n\n\n\nLEBL SIDOKABI UN861 FISTO UY156 ADABI UN858 VANAD UN874 VEKIN UN873 ADUTO/N0450F350 \nUN873 HELEN/N0448F360 UN873 SPY/N0448F350 UN873 GRONY/N0445F370 UN873 JUIST UP729 \nBATOB/N0439F390 UP729 DOSUR P729 TUDLO STAR EKCH\n\n\n\nOKABI TOU FISTO PERIG FOUCO ADABI BOKNO DEVRO VANAD VADOM BAMES KOPOR MTD NURMO \nPERON CMB VEKIN ADUTO FERDI HELEN TOLEN STD EKROS SPY BETUS ANDIK KEKIX GRONY \nBEDUM LABIL JUIST DHE BATOB DOSUR TALSA TUDLO\nBased on this routing, the following distances are established in the charging zones concerned:\n\nSpain (LE): 115 km \\(\\rightarrow\\) Distance Factor: 1.15\nFrance (LF): 905 km \\(\\rightarrow\\) Distance Factor: 9.05\nBelgium (EB): 87 km \\(\\rightarrow\\) Distance Factor: 0.87\nNetherlands (EH): 322 km \\(\\rightarrow\\) Distance Factor: 3.22\nGermany (ED): 219 km \\(\\rightarrow\\) Distance Factor: 2.19\nDenmark (EK): 214 km \\(\\rightarrow\\) Distance Factor: 2.14\n\n\n\n\nTaking the highest certificated MTOW of 77.0 metric tonnes, the weight factor is: \\[\\text{Weight Factor} = \\sqrt{\\frac{77.0}{50}} = \\sqrt{1.54} \\approx 1.24\\]\n\n\n\nThe table below summarizes the calculation steps per charging zone overflown:\n\n\n\n\n\n\n\n\n\n\n\n\n\nState\nDistance Factor\n\nWeight Factor\n\nUnit Rate (EUR)\n\nCharge (EUR)\n\n\n\n\nSpain (LE)\n1.15\n\\(\\times\\)\n1.24\n\\(\\times\\)\n62.73\n\\(=\\)\n89.45\n\n\nFrance (LF)\n9.05\n\\(\\times\\)\n1.24\n\\(\\times\\)\n70.99\n\\(=\\)\n796.65\n\n\nBelgium (EB)\n0.87\n\\(\\times\\)\n1.24\n\\(\\times\\)\n112.19\n\\(=\\)\n121.03\n\n\nNetherlands (EH)\n3.22\n\\(\\times\\)\n1.24\n\\(\\times\\)\n95.26\n\\(=\\)\n380.35\n\n\nGermany (ED)\n2.19\n\\(\\times\\)\n1.24\n\\(\\times\\)\n80.25\n\\(=\\)\n217.93\n\n\nDenmark (EK)\n2.14\n\\(\\times\\)\n1.24\n\\(\\times\\)\n67.53\n\\(=\\)\n179.20\n\n\nTotal\n\n\n\n\n\n\\(=\\)\n1,784.61"
+  },
+  {
+    "objectID": "annexes.html#annex-b.-rso-route-charges-estimation",
+    "href": "annexes.html#annex-b.-rso-route-charges-estimation",
+    "title": "Annexes",
+    "section": "Annex B. RSO Route Charges Estimation",
+    "text": "Annex B. RSO Route Charges Estimation\nThe printout below is generated by the Route per State Overflown (RSO) Distance Tool for the calculation described in Annex A. It shows detailed crossing points, coordinates, and exact zone charge values.\n\n\n\nRSO Route Charges Estimation Report"
+  },
+  {
+    "objectID": "annexes.html#annex-c.-establishing-the-distance-factor-for-international-flights",
+    "href": "annexes.html#annex-c.-establishing-the-distance-factor-for-international-flights",
+    "title": "Annexes",
+    "section": "Annex C. Establishing the Distance Factor for International Flights",
+    "text": "Annex C. Establishing the Distance Factor for International Flights\nThe diagram below illustrates how flight plan routes are divided into segments to establish the distance factors.\n\n\n\nEstablishing Distance Factor Diagram\n\n\n\nLegend:\n\n\n\n\n\nDEP* = Departure aerodrome\n\n\n\n\n\nARR* = Arrival aerodrome\n\n\n\n\n\nATC Points\n\n\n\n\n\nFlight Plan Route\n\n\n\n\n\nCharging Zone Boundary\n\n\n\n\n\nGreat Circle Distance\n\n\n\n\n\nCalculated Crossing Point (on boundary)\n\n\n\n\nNote: For each take-off and for each landing in a charging zone, 20 km are deducted from the total distance for that charging zone."
+  },
+  {
+    "objectID": "liability.html",
+    "href": "liability.html",
+    "title": "Part D. Liability of Charges",
+    "section": "",
+    "text": "The aircraft operator at the time the flight was performed is liable to pay the charge. If the identity of the operator is unknown, the owner of the aircraft is regarded as the operator unless they prove that another entity was operating the flight."
+  },
+  {
+    "objectID": "liability.html#operator-identification",
+    "href": "liability.html#operator-identification",
+    "title": "Part D. Liability of Charges",
+    "section": "Operator Identification",
+    "text": "Operator Identification\nThe operator is identified via the ICAO Flight Plan: 1. ICAO Designator: By the three-letter ICAO designator entered in Field 7 (Aircraft Identification) of the flight plan. Operators must only use designators officially allocated to them. 2. Aircraft Registration: By the aircraft registration mark entered in Field 7 in all other cases."
+  },
+  {
+    "objectID": "liability.html#required-billing-information",
+    "href": "liability.html#required-billing-information",
+    "title": "Part D. Liability of Charges",
+    "section": "Required Billing Information",
+    "text": "Required Billing Information\nOperators must provide the CRCO with the following details for billing:\n\nLegal Name & Address: Your company’s legal and fiscal address.\nBilling Address: If different from the legal address.\nHandling Agency Details: You may request the CRCO to send billing documents directly to a handling agent (marked as “care of” in the billing address).\nValue Added Tax (VAT) Status:\n\nEU Businesses (B2B): Provide your EU VAT Identification Number.\nNon-EU Businesses: Provide an original, certified, and stamped document from your National Tax Authority confirming your VAT or fiscal registration number.\n\n\n\n\n\n\n\n\nTip\n\n\n\nIf you have a CEFA account, you can update your legal and billing information online. Any updates should be notified without delay."
+  },
+  {
+    "objectID": "liability.html#d.1.-exemptions",
+    "href": "liability.html#d.1.-exemptions",
+    "title": "Part D. Liability of Charges",
+    "section": "D.1. Exemptions",
+    "text": "D.1. Exemptions\nCertain categories of flights qualify for exemption from air navigation charges (e.g., military, search and rescue, training, or flights under a certain weight limit, depending on State policies).\nExemptions are detailed in Article 8 of the Conditions of Application of the Route Charges System. The latest conditions can be downloaded here: Conditions of Application & Payment."
+  },
+  {
+    "objectID": "liability.html#d.2.-value-added-tax-vat",
+    "href": "liability.html#d.2.-value-added-tax-vat",
+    "title": "Part D. Liability of Charges",
+    "section": "D.2. Value Added Tax (VAT)",
+    "text": "D.2. Value Added Tax (VAT)\nAir navigation services in the charging zones of EUROCONTROL Member States may be subject to VAT. EUROCONTROL invoices VAT on behalf of taxable service providers in accordance with agreements with the States concerned.\nDetailed tax information is available in the latest Information Circular on Value Added Tax (route charges).\n\nD.2.1. EU VAT Rules\nFollowing the EU VAT Directive 2006/112/EC, the place of supply of services determines the tax liability:\n\n\n\n\n\n\n\n\n\nTransaction Type\nCustomer Location\nPlace of Supply\nVAT Applied by EUROCONTROL?\n\n\n\n\nB2C (Business to Consumer)\nAny\nLocation of service provider (ANSP)\nYes (ANSP Local VAT)\n\n\nB2B (Business to Business)\nSame EU State as ANSP\nLocation of customer (ANSP State)\nYes (ANSP Local VAT)\n\n\nB2B (Business to Business)\nDifferent EU State\nLocation of customer (Reverse Charge)\nNo (Customer accounts for VAT)\n\n\nB2B (Business to Business)\nOutside the EU\nLocation of customer (Non-EU territory)\nNo\n\n\n\n\n\nD.2.2. Non-EU VAT\nFor taxable air navigation service providers established outside the European Union, the place of supply is the place where the service provider is established. Local VAT rules of the non-EU provider apply."
+  },
+  {
+    "objectID": "tools.html",
+    "href": "tools.html",
+    "title": "Part F. Tools",
+    "section": "",
+    "text": "The CRCO provides a suite of online services and tools to help airspace users manage their billing, declarations, claims, and route estimations."
+  },
+  {
+    "objectID": "tools.html#f.1.-crco-cefa-portal",
+    "href": "tools.html#f.1.-crco-cefa-portal",
+    "title": "Part F. Tools",
+    "section": "F.1. CRCO CEFA Portal",
+    "text": "F.1. CRCO CEFA Portal\nThe CEFA (Central Eurocontrol Financial Agency) Portal is a secured, confidential online platform designed for exchanging billing and fleet data between airspace users and the CRCO.\n\n\n\n\n\n\nRegister for CEFA\n\n\n\nAccess is free and highly recommended. You can enroll online at: https://www.eurocontrol.int/tool/cefa\n\n\n\nCore Features:\n\nBilling Downloads: Instantly download your monthly invoices, statements, and detailed flight logs.\nCredit Card Payments: Settle outstanding bills online securely using Visa or Mastercard.\nReal-time Statements: Access daily statements showing the latest accounting actions (payments, adjustments).\nFleet Declarations: Submit and modify aircraft registrations and MTOW values (AFMs) to ensure correct billing weight factors.\nAccount Profile Settings: Request modifications to legal addresses, contact details, VAT numbers, and invoice delivery options.\nFast Claim Processing: Submit claim requests online, upload supporting documents, and track their verification status."
+  },
+  {
+    "objectID": "tools.html#f.2.-crco-datalink",
+    "href": "tools.html#f.2.-crco-datalink",
+    "title": "Part F. Tools",
+    "section": "F.2. CRCO DATALINK",
+    "text": "F.2. CRCO DATALINK\nFor users with automated accounting systems, the CRCO offers billing documents in structured electronic formats via the **CRCO*DATALINK** service.\n\nEnrolment: Send an email request to crco.cefa@eurocontrol.int. Data is available starting from the billing cycle after the request is made.\nFormats: Available in TXT and XLS (Excel) files.\n\n\nText Format (.txt)Excel Format (.xls)\n\n\nA comprehensive data stream designed for automated database imports. It contains extensive flight detail elements not shown on standard paper or PDF statements: * Precise route crossing coordinates and times. * Charges and great circle distances per charging zone overflown. * Aircraft registration and exact weight factor used. * Refer to the CRCODATALINK Technical Handbook on CEFA for file layout schemas.*\n\n\nA simplified, user-friendly spreadsheet. It is directly exploitable and ideal for small to medium operators looking to perform simple calculations and reviews in spreadsheets."
+  },
+  {
+    "objectID": "tools.html#f.3.-rso-distance-tool",
+    "href": "tools.html#f.3.-rso-distance-tool",
+    "title": "Part F. Tools",
+    "section": "F.3. RSO Distance Tool",
+    "text": "F.3. RSO Distance Tool\nThe Route per State Overflown (RSO) Distance Tool is a software application that assists operators in estimating route charges for planned flights.\n\nFunction: Computes flight distances within individual state charging zones based on proposed flight plan routing.\nDownload Link: RSO Distance Tool Download\nExample Output: See Annex B for an example of a printout generated by the RSO tool.\n\n\n\n\n\n\n\nWarning\n\n\n\nWhile third-party route planning tools exist on the market, many only provide approximate calculations. The RSO Distance Tool is the recommended software for checking charges against official EUROCONTROL bills."
+  },
+  {
+    "objectID": "claims.html",
+    "href": "claims.html",
+    "title": "Part E. Claims",
+    "section": "",
+    "text": "If you believe that you have been incorrectly billed, you can submit a claim for correction. EUROCONTROL provides a claims management module to streamline this process."
+  },
+  {
+    "objectID": "claims.html#submission-procedure",
+    "href": "claims.html#submission-procedure",
+    "title": "Part E. Claims",
+    "section": "Submission Procedure",
+    "text": "Submission Procedure\n\nPlatform: Claims must be submitted online using the Claims Module on CEFA.\nDeadline: Claims must be received within 60 days from the bill date (the claim due date is indicated on your invoice).\nAcknowledgement: Upon receipt, you will receive an Acknowledgement of Receipt confirming the number of disputed flights and the total disputed amount."
+  },
+  {
+    "objectID": "claims.html#important-rules-financial-treatment",
+    "href": "claims.html#important-rules-financial-treatment",
+    "title": "Part E. Claims",
+    "section": "Important Rules & Financial Treatment",
+    "text": "Important Rules & Financial Treatment\n\n\n\n\n\n\nNo Unauthorized Deductions\n\n\n\nThe submission of a claim does not entitle you to make deductions from the relevant bill unless authorized to do so in writing by the CRCO.\nIf you make an unauthorized deduction and interest on late payment (IOLP) is billed, that interest will only be credited if the underlying claim is subsequently accepted and approved by the CRCO.\n\n\n\nFull Credit & Re-bill Policy: When a billing error is confirmed (e.g., wrong distance, incorrect weight factor), the original charge is credited in full, and a new corrected charge is billed. Partial credits are not made.\nAutomatic Linked Claims: Claims approved for Route Charges (Part A) are automatically applied to any linked Terminal and Communication charges billed by the CRCO for the same flight.\nSeparate Non-Member Claims: Claims against Air Navigation Charges (non-Member States, see Section A.3) are handled outside the multilateral agreement and must be introduced separately."
+  },
+  {
+    "objectID": "charges.html",
+    "href": "charges.html",
+    "title": "Part A. Type of Charges",
+    "section": "",
+    "text": "The CRCO operates different charge recovery systems on behalf of both Member and non-Member States, in accordance with the guidelines recommended by the International Civil Aviation Organisation (ICAO)."
+  },
+  {
+    "objectID": "charges.html#a.1.-route-charges",
+    "href": "charges.html#a.1.-route-charges",
+    "title": "Part A. Type of Charges",
+    "section": "A.1. Route Charges",
+    "text": "A.1. Route Charges\nThe Member States of EUROCONTROL have adopted basic principles for a harmonised regional route charges system involving a single charge per flight. The CRCO operates this Multilateral Route Charges System with due regard to equity and transparency.\n\nA.1.1. Participating States\nThe EUROCONTROL Organisation is entrusted with the calculation, billing, and collection of route charges on behalf of the following 41 Contracting States to the Multilateral Agreement:\n\n\nAlbania LA\n\n\nArmenia UD\n\n\nAustria LO\n\n\nBelgium EB\n\n\nBosnia-Herzegovina LQ\n\n\nBulgaria LB\n\n\nCroatia LD\n\n\nCyprus LC\n\n\nCzech Republic LK\n\n\nDenmark EK\n\n\nEstonia EE\n\n\nFinland EF\n\n\nFrance LF\n\n\nGeorgia UG\n\n\nGermany ED\n\n\nGreece LG\n\n\nHungary LH\n\n\nIreland EI\n\n\nItaly LI\n\n\nLatvia EV\n\n\nLithuania EY\n\n\nLuxembourg EL\n\n\nMalta LM\n\n\nMoldova LU\n\n\nMonaco LN\n\n\nMontenegro LY\n\n\nNetherlands EH\n\n\nNorth Macedonia LW\n\n\nNorway EN\n\n\nPoland EP\n\n\nPortugal (incl. Azores) LP\n\n\nRomania LR\n\n\nSerbia LY\n\n\nSlovak Republic LZ\n\n\nSlovenia LJ\n\n\nSpain (incl. Canaries) LE\n\n\nSweden ES\n\n\nSwitzerland LS\n\n\nTürkiye LT\n\n\nUkraine (incl. UK South) UK\n\n\nUnited Kingdom EG\n\n\n\n\nA.1.2. Calculation\nA route charge is levied for each flight performed in the EUROCONTROL airspace. The airspace is divided into route charging zones as defined by the Member States.\nThe route charge calculation is based on three elements: \\[\\text{Charge} = \\text{Distance Factor} \\times \\text{Aircraft Weight Factor} \\times \\text{Unit Rate of Charge}\\]\nThe product of these three elements is the route charge for each charging zone. Refer to Annex A for a step-by-step example.\n\nA.1.2.1. Distance Factor\nThe distance factor by charging zone is obtained by dividing the great circle distance (in kilometres) by \\(100\\): \\[\\text{Distance Factor} = \\frac{\\text{Great Circle Distance (km)}}{100}\\]\n\nTake-off and Landing Deduction: For each take-off and landing on the territory of a Member State, \\(20\\text{ km}\\) are deducted from the total distance within the impacted charging zone(s).\nCircular Flights: For flights terminating at the aerodrome of departure with no intermediate landing, the distance factor is determined by reference to the most distant point from the aerodrome.\n\n\n\n\n\n\n\nTip\n\n\n\nDetailed distance factor calculation rules are outlined in Article 5 of the Conditions of Application of the Route Charges System, downloadable from the CRCO website.\n\n\n\n\nA.1.2.2. Aircraft Weight Factor\nThe aircraft weight factor is calculated from the certificated maximum take-off weight (MTOW) of the aircraft, expressed in metric tonnes (to one decimal place): \\[\\text{Weight Factor} = \\sqrt{\\frac{\\text{MTOW}}{50}}\\]\n\nFleet Declarations: Operators must notify the CRCO of any change in their fleet’s composition (acquisitions, disposals, dry/wet leases) or MTOW updates before the last working day of the month using the Fleet Declaration module on CEFA.\nDefault MTOW Rule: In the event of no fleet declaration being received, the weight factor will be calculated using the MTOW of the heaviest aircraft of the same type known to exist.\n\n\n\nA.1.2.3. Unit Rate of Charge\nThe unit rate of charge is the rate applied in a charging zone to a flight by a standard aircraft of \\(50\\text{ metric tonnes}\\) (weight factor of \\(1.00\\)) over a distance factor of \\(1.00\\). * Unit rates are set on 1st January of each year. * To reduce exchange rate fluctuations, unit rates are adjusted monthly for States not using the Euro or not establishing their cost-base in Euro. Adjusted rates are published on the CRCO tariffs page."
+  },
+  {
+    "objectID": "charges.html#a.2.-terminal-charges",
+    "href": "charges.html#a.2.-terminal-charges",
+    "title": "Part A. Type of Charges",
+    "section": "A.2. Terminal Charges",
+    "text": "A.2. Terminal Charges\nCharges for terminal air navigation services are billed and collected by EUROCONTROL on behalf of participating Member States.\n\nA.2.1. Participating States\nThe CRCO bills and collects terminal charges on behalf of the following Member States:\n\n\nAlbania\n\n\nBulgaria\n\n\nCroatia\n\n\nDenmark\n\n\nFinland\n\n\nFrance\n\n\nGreece\n\n\nHungary\n\n\nIreland\n\n\nItaly\n\n\nLithuania\n\n\nMalta\n\n\nMoldova\n\n\nNetherlands\n\n\nNorth Macedonia\n\n\nSlovenia\n\n\nSpain (incl. Canarias)\n\n\nSweden\n\n\nTerminal charges bills are issued monthly in the middle of the month following the flights, alongside route charges. Payment terms are the same (30 days from the date of the bill).\n\n\nA.2.2. Calculation\nTerminal charges are levied on departing flights only, within designated terminal charging zones (aerodromes or groups of aerodromes): \\[\\text{Terminal Charge} = \\text{Aircraft Weight Factor} \\times \\text{Unit Rate of Charge for Aerodrome}\\]\n\nA.2.2.1. Aircraft Weight Factor\nDepending on the State, two different formulas are used to calculate the terminal weight factor:\n\nFormula 1 (Standard EU)Formula 2 (Linear)\n\n\nApplied by: Albania, Bulgaria, Croatia, Denmark, Finland, France, Greece, Hungary, Ireland, Italy, Lithuania, Malta, The Netherlands, Slovenia, Spain, and Sweden: \\[\\text{Weight Factor} = \\left(\\frac{\\text{MTOW}}{50}\\right)^{0.70}\\]\n\n\nApplied by: Moldova and North Macedonia: \\[\\text{Weight Factor} = \\text{MTOW (in metric tonnes)}\\]\n\n\n\nThe MTOW value used is identical to that used for route charges (see Section A.1.2.2).\n\n\nA.2.2.2. Unit Rate of Charge\nUnit rates are applied in EUR, except for Denmark (DKK) and Sweden (SEK). Rates can vary by airport. Airport-specific rates are listed in the latest Information Circulars under the “Key Documents” section on the CRCO portal."
+  },
+  {
+    "objectID": "charges.html#a.3.-air-navigation-charges",
+    "href": "charges.html#a.3.-air-navigation-charges",
+    "title": "Part A. Type of Charges",
+    "section": "A.3. Air Navigation Charges",
+    "text": "A.3. Air Navigation Charges\nAir navigation charges are billed on behalf of non-Member States of EUROCONTROL. They can cover route charges, terminal charges, or both.\n\nA.3.1. Participating States\nThe CRCO is entrusted with billing and collection for the following States:\n\n\n\nState\nRoute Charges\nTerminal Charges\nInvoice Currency\n\n\n\n\nEgypt\nYes\nYes\nEUR\n\n\nMorocco\nYes\nNo\nEUR\n\n\nUzbekistan\nYes\nNo\nEUR\n\n\n\n\n\nA.3.2. Calculation of Route Charges\nThe calculation elements are identical to the Multilateral System: \\[\\text{Route Charge} = \\text{Distance Factor} \\times \\text{Aircraft Weight Factor} \\times \\text{Unit Rate of Charge}\\]\n\nDistance Factor: Great circle distance in km divided by \\(100\\). For each take-off and landing within the State, \\(20\\text{ km}\\) are deducted.\nWeight Factor: Standard formula: \\(\\sqrt{\\text{MTOW}/50}\\).\nUnit Rate: Set at the beginning of the year and remains valid for the calendar year.\n\n\n\nA.3.3. Calculation of Terminal Charges (Egypt)\nTerminal charges are levied on departing flights only:\n\nA.3.3.1. Aircraft Weight Factor (Egypt)\nEgypt calculates the terminal weight factor using: \\[\\text{Weight Factor} = \\left(\\frac{\\text{MTOW}}{50}\\right)^{0.50}\\]\n\n\nA.3.3.2. Unit Rate of Charge\nRates can differ by airport and are published in the CRCO Information Circulars."
+  },
+  {
+    "objectID": "charges.html#a.4.-communication-charges",
+    "href": "charges.html#a.4.-communication-charges",
+    "title": "Part A. Type of Charges",
+    "section": "A.4. Communication Charges",
+    "text": "A.4. Communication Charges\nThe CRCO bills and collects communication charges in the Shanwick Oceanic Region on behalf of AIRNAV IRELAND for services provided by the Shanwick Aeronautical Radio Station.\n\nCalculation: Flat rate (in EUR) per flight.\nBilling & Terms: Invoiced monthly in the middle of the following month, with standard 30-day payment terms."
+  },
+  {
+    "objectID": "billing.html",
+    "href": "billing.html",
+    "title": "Part B. Billing Documents",
+    "section": "",
+    "text": "At each billing cycle, you will receive a structured set of billing documents. EUROCONTROL issues these documents in the middle of the month following the month in which the flights took place."
+  },
+  {
+    "objectID": "billing.html#document-categories",
+    "href": "billing.html#document-categories",
+    "title": "Part B. Billing Documents",
+    "section": "Document Categories",
+    "text": "Document Categories\nThe billing documents are organized into four main categories:\n\n1. Statements2. Invoices & Annexes3. Credit Notes & Annexes4. Information Documents\n\n\n\nStatement of Account (ST): Records all accounting movements (charges, payments, interest) and is issued at least once a month. Daily intermediate statements can be downloaded via CEFA.\n\n\n\n\nBill (FB): Indicates the total amount of charges (including VAT) to be paid and the payment due date. Detailed bank details are printed on the reverse.\nVAT Invoice (BT): Issued for tax purposes when VAT is invoiced on behalf of a Member State’s service provider. Note: This amount is already included in the Bill (FB) and must not be paid separately.\nIOLP Bill (FI): Issued to apply Interest on Late Payment for charges not settled by the due date.\nPro Forma Statement (PF): Lists flights in chronological order, showing details for each flight, total route charges, and any applicable exemptions. The net sum equals the amount on the corresponding Bill (FB).\nBill & VAT Breakdown (CB): Presents a breakdown of route charges by charging zone and entity on behalf of which the bill was issued.\n\n\n\n\nCredit Note (NC): Indicates the total amount of charges (including VAT) to be credited based on claimed flights.\nVAT Credit Note (CT): Issued when VAT is credited on behalf of a service provider. Note: Already included in the Credit Note (NC).\nIOLP Credit Note (NI): Issued to credit interest when a corresponding bill is adjusted.\nCredit Note Pro Forma (NP): Lists credited flights in chronological order, matching the net sum on the Credit Note (NC).\nCredit Note & VAT Breakdown (CN): Presents a breakdown of credited route charges per zone and entity.\n\n\n\n\nClaim Result (DN): Communicates the CRCO’s decision to accept a claim (entailing a full credit and potential re-billing).\nClaim Rejection Note: Issued when a claim is rejected, detailing why the original bill was correct. No financial transaction occurs.\nFleet Composition (FC): Displays the aircraft fleet and MTOW values on record as of the last day of the previous month. Used to establish the weight factor."
+  },
+  {
+    "objectID": "billing.html#understanding-document-references",
+    "href": "billing.html#understanding-document-references",
+    "title": "Part B. Billing Documents",
+    "section": "Understanding Document References",
+    "text": "Understanding Document References\nEvery billing document issued by EUROCONTROL contains a structured reference number.\nExample reference:\n\n05 / 001776 / 30 / 2501 / 01\n\n\nReference Components\n\nDocument Type / Charge System Code (Positions 1 & 3): Indicates the charge system or the document sub-type. These codes can appear in the first position (for standard system bills) or the third position (for credit notes, interest bills, or fleet documents).\nCRCO User Number (Position 2): Unique identifier assigned to the aircraft operator.\nCalendar Month (Position 4): The month in which the flights were performed, formatted as YYMM (e.g., 2501 represents January 2025).\nBill Sequence Number (Position 5): Indicates the billing run for that flight month (01 = Initial bill; 02 = Additional bill for the same month).\n\n\n\nDocument & System Codes\nBelow is the list of two-character codes used in references to identify the charge system or document type:\n\n\n\n\n\n\n\n\n\nCode\nDescription\nCode\nDescription\n\n\n\n\n02\nRoute charges\n26\nTerminal charges Croatia\n\n\nIC\nCommunication charges\n27\nTerminal charges Bulgaria\n\n\n03\nTerminal charges France\n28\nTerminal charges North Macedonia\n\n\n05\nTerminal charges The Netherlands\n29\nTerminal charges Moldova\n\n\n06\nTerminal charges Ireland\n30\nTerminal charges Finland\n\n\n10\nTerminal charges Spain Continental\n31\nTerminal charges Albania\n\n\n11\nTerminal charges Spain Canarias\n37\nTerminal charges Lithuania\n\n\n13\nTerminal charges Greece\nGM\nAir navigation charges Morocco\n\n\n15\nTerminal charges Malta\nHE\nAir navigation charges Egypt\n\n\n16\nTerminal charges Italy\nUT\nAir navigation charges Uzbekistan\n\n\n18\nTerminal charges Hungary\nCN\nCredit note\n\n\n20\nTerminal charges Denmark\nFI\nBill IOLP\n\n\n21\nTerminal charges Slovenia\nNI\nCredit note IOLP\n\n\n24\nTerminal charges Sweden\nFC\nFleet composition\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nYou will always receive a full set of Statements and Invoices (and Credit Notes, if applicable) per active system of charge (e.g., 1 for Route Charges, up to 18 for Terminal Charges, up to 3 for Air Navigation Charges, and 1 for Communication Charges)."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Customer Guide to Charges",
+    "section": "",
+    "text": "Customer Guide to Charges\n\n\nApril 2026 Edition"
+  },
+  {
+    "objectID": "index.html#welcome",
+    "href": "index.html#welcome",
+    "title": "Customer Guide to Charges",
+    "section": "Welcome",
+    "text": "Welcome\nThis website presents the EUROCONTROL CRCO Customer Guide to Charges, which provides detailed information on the different charges levied by the Central Route Charges Office (CRCO), billing documents, payment procedures, and submission of claims."
+  },
+  {
+    "objectID": "index.html#the-mission-of-the-crco",
+    "href": "index.html#the-mission-of-the-crco",
+    "title": "Customer Guide to Charges",
+    "section": "The Mission of the CRCO",
+    "text": "The Mission of the CRCO\nThe Central Route Charges Office (CRCO) runs an efficient system for the cost recovery of air traffic services made available to aircraft operators.\nOn behalf of EUROCONTROL’s Member States, the CRCO: * Bills and collects route charges that fund air navigation facilities and services and supports Air Traffic Management developments (see Part A: Route Charges). * Provides a single consolidated monthly bill in EUR, no matter how many EUROCONTROL Member States were overflown. * Bills and collects terminal charges on a bilateral basis on behalf of participating Member States (see Part A: Terminal Charges). * Bills and collects air navigation charges on behalf of non-Member States (see Part A: Air Navigation Charges). * Bills and collects communication charges in the Shanwick area (see Part A: Communication Charges).\nThe billing and recovery of air navigation charges by EUROCONTROL is indispensable in ensuring that air navigation facilities and services are steadily financed and safely operated, paving the way for the future evolution of the pan-European Air Traffic Management (ATM) system in the context of the Single European Sky and the European ATM Master Plan (SESAR).\n\n\n\n\n\n\nOfficial Documents Notice\n\n\n\nThis document is published by EUROCONTROL for information purposes. While reasonable efforts have taken place to ensure the information is complete and accurate as of the date of publication, EUROCONTROL does not make any warranties or representations as to the accuracy, completeness, or fitness for a particular purpose of the information contained herein.\nIn the event of any conflict or discrepancy between the information in this guide and any official EUROCONTROL document, the users shall exclusively refer to the official document.\n\n\n\n\n\n\n\n\n\nFRAUD WARNING!\n\n\n\nFraudsters may attempt to contact you, claiming that EUROCONTROL bank accounts have changed, and try to persuade you to make payments to fake bank accounts.\n\nTreat any communication with suspicion, especially if you are asked for financial information about your account or if a new bank account is communicated to you!\nNo Bank Account Changes Planned: EUROCONTROL has no plan to open new bank accounts in the foreseeable future and never communicates bank account numbers by e-mail, fax or telephone.\nOfficial Sources Only: Under no circumstances should you pay into any bank account other than those referenced on the official EUROCONTROL billing documents. Never accept any other source of information.\nVerification: If in doubt, contact us immediately at +32.2.729.38.38.\n\nFor increased security, we strongly advise you to use our CEFA portal, which allows you to download your billing documents, consult your account’s latest status, submit modifications of aircraft data, or introduce claims and monitor their status. Learn more in the CEFA Portal section."
+  },
+  {
+    "objectID": "index.html#online-resources",
+    "href": "index.html#online-resources",
+    "title": "Customer Guide to Charges",
+    "section": "Online Resources",
+    "text": "Online Resources\nThe CRCO pages on EUROCONTROL’s public website give additional information and contain the latest updates for all items featured in this Customer Guide: http://www.eurocontrol.int/crco"
+  }
+]

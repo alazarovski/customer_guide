@@ -1,0 +1,54 @@
+project:
+  type: website
+  output-dir: .
+
+website:
+  title: "CRCO Customer Guide"
+  navbar:
+    logo: images/logo.png
+    logo-alt: "Eurocontrol Logo"
+    left:
+      - href: index.qmd
+        text: Home
+    right:
+      - icon: github
+        href: https://github.com
+  sidebar:
+    style: "docked"
+    search: true
+    collapse-level: 2
+    contents:
+      - section: "Customer Guide"
+        contents:
+          - href: index.qmd
+            text: "Introduction"
+          - href: charges.qmd
+            text: "Part A. Type of Charges"
+          - href: billing.qmd
+            text: "Part B. Billing Documents"
+          - href: payment.qmd
+            text: "Part C. Payment of Charges"
+          - href: liability.qmd
+            text: "Part D. Liability of Charges"
+          - href: claims.qmd
+            text: "Part E. Claims"
+          - href: tools.qmd
+            text: "Part F. Tools"
+      - section: "Reference"
+        contents:
+          - href: contacts.qmd
+            text: "Contacts"
+          - href: annexes.qmd
+            text: "Annexes"
+
+format:
+  html:
+    theme:
+      light: cosmo
+      dark: superhero
+    css: styles.css
+    toc: true
+    toc-depth: 3
+    toc-expand: 2
+    number-sections: false
+    code-copy: true
