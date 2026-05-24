@@ -13,9 +13,8 @@
 !styles.css
 !search.json
 
-# Allow Quarto sources and compiled HTML
+# Allow compiled HTML
 !*.html
-!*.qmd
 
 # Allow files inside images and site_libs
 !images/**
