@@ -447,3 +447,83 @@ img {
     width: auto;
   }
 }
+
+/* ========================================== */
+/* MOBILE SIDEBARTOGGLE & DRAWER CONTRAST FIX */
+/* ========================================== */
+
+/* Make toggle buttons (Burger Menu & head menu) clearly visible on mobile */
+.quarto-btn-toggle, .quarto-navigation-tool, .navbar-toggler, .navbar-toggler-icon {
+  color: var(--brand-primary) !important;
+  transition: all 0.2s ease !important;
+}
+
+.quarto-dark .quarto-btn-toggle, .quarto-dark .quarto-navigation-tool, .quarto-dark .navbar-toggler {
+  color: var(--brand-secondary) !important;
+}
+
+/* Ensure button stands out visually as a clickable interface item */
+.quarto-btn-toggle {
+  border: 1px solid var(--border-color) !important;
+  border-radius: 6px !important;
+  padding: 0.35rem 0.65rem !important;
+  background-color: var(--state-bg) !important;
+}
+
+.quarto-btn-toggle:hover {
+  background-color: var(--brand-light) !important;
+  border-color: var(--brand-secondary) !important;
+}
+
+/* Style Quarto Sidebar Drawer on Mobile & Desktop */
+#quarto-sidebar {
+  background-color: var(--card-bg) !important;
+  border-right: 1px solid var(--border-color) !important;
+  padding-top: 1rem;
+}
+
+/* Sections and Headers in Sidebar */
+.sidebar-section {
+  color: var(--heading-color) !important;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 600;
+}
+
+/* Link items inside the drawer */
+#quarto-sidebar a.sidebar-link {
+  color: var(--text-color) !important;
+  font-size: 0.95rem;
+  padding: 0.5rem 0.75rem;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.2s ease;
+}
+
+/* Hover state for link items */
+#quarto-sidebar a.sidebar-link:hover {
+  background-color: var(--brand-light) !important;
+  color: var(--brand-primary) !important;
+  text-decoration: none;
+}
+
+.quarto-dark #quarto-sidebar a.sidebar-link:hover {
+  color: var(--brand-secondary) !important;
+}
+
+/* Active indicator on selected drawer items */
+#quarto-sidebar .sidebar-item.active > a.sidebar-link,
+#quarto-sidebar a.sidebar-link.active {
+  background-color: var(--brand-light) !important;
+  color: var(--brand-primary) !important;
+  font-weight: 600 !important;
+  border-left: 3px solid var(--brand-primary) !important;
+  border-radius: 0 6px 6px 0;
+}
+
+.quarto-dark #quarto-sidebar .sidebar-item.active > a.sidebar-link,
+.quarto-dark #quarto-sidebar a.sidebar-link.active {
+  color: var(--brand-secondary) !important;
+  border-left-color: var(--brand-secondary) !important;
+}
