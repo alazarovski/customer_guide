@@ -10,9 +10,6 @@ website:
     left:
       - href: index.qmd
         text: Home
-    right:
-      - icon: github
-        href: https://github.com
   sidebar:
     style: "docked"
     search: true
@@ -40,6 +37,9 @@ website:
             text: "Contacts at the Central Route Charges Office"
           - href: annexes.qmd
             text: "Annexes"
+  page-footer:
+    left: "© 2026 EUROCONTROL - Central Route Charges Office"
+    right: "Customer Guide to Charges"
 
 format:
   html:
@@ -52,3 +52,6 @@ format:
     toc-expand: 2
     number-sections: false
     code-copy: true
+    smooth-scroll: true
+    back-to-top-navigation: true
+    breadcrumbs: true

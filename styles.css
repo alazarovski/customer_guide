@@ -1,22 +1,39 @@
 /* Custom styles for the CRCO Manual */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap');
 
-/* Brand Variables */
+/* Brand Variables (Light Mode defaults) */
 :root {
   --brand-primary: #005a9c;      /* Eurocontrol Deep Blue */
   --brand-secondary: #0087d1;    /* Accent Blue */
   --brand-light: #f5f9fc;        /* Light Grey-Blue */
   --brand-dark: #0b1a26;
-  --text-dark: #1e293b;
+  --text-color: #334155;         /* Readable dark slate body */
+  --heading-color: #0f172a;      /* Dark headings */
   --border-color: #e2e8f0;
+  --card-bg: #ffffff;
+  --state-bg: #f8fafc;
+  --state-code-bg: #e2e8f0;
+  --state-code-color: #64748b;
   --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
   --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
   --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
 }
 
+/* Dark Mode Overrides (Triggered by Quarto's .quarto-dark class) */
+.quarto-dark {
+  --text-color: #cbd5e1;         /* Light grey body text */
+  --heading-color: #f8fafc;      /* Near-white headings */
+  --border-color: #334155;
+  --card-bg: #1e293b;            /* Dark card backgrounds */
+  --state-bg: #151f30;           /* Slightly darker grey-blue for state cards */
+  --state-code-bg: #2e3c51;      /* Darker grey-blue for badges */
+  --state-code-color: #94a3b8;   /* Light grey-blue badge text */
+  --brand-light: rgba(0, 135, 209, 0.12); /* Translucent highlight blue */
+}
+
 body {
   font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
-  color: var(--text-dark);
+  color: var(--text-color);
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
 }
@@ -24,7 +41,7 @@ body {
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Outfit', sans-serif;
-  color: #0f172a;
+  color: var(--heading-color);
   font-weight: 600;
   letter-spacing: -0.01em;
 }
@@ -76,7 +93,7 @@ h2 {
 }
 
 .cover-card h1 {
-  color: white;
+  color: white !important;
   border: none;
   font-size: 2.5rem;
   font-weight: 800;
@@ -127,8 +144,9 @@ h2 {
 }
 
 .state-item {
-  background: #f8fafc;
+  background: var(--state-bg);
   border: 1px solid var(--border-color);
+  color: var(--text-color);
   padding: 0.5rem 0.75rem;
   border-radius: 6px;
   font-size: 0.9rem;
@@ -141,35 +159,18 @@ h2 {
 .state-item:hover {
   background: var(--brand-light);
   border-color: var(--brand-secondary);
-  color: var(--brand-primary);
+  color: var(--brand-secondary);
   font-weight: 500;
 }
 
 .state-code {
   font-weight: 700;
-  color: #64748b;
+  color: var(--state-code-color);
   font-size: 0.8rem;
-  background: #e2e8f0;
+  background: var(--state-code-bg);
   padding: 0.1rem 0.35rem;
   border-radius: 4px;
-}
-
-/* Dark mode overrides for grid */
-.dark-mode .state-item {
-  background: #1e293b;
-  border-color: #334155;
-  color: #f8fafc;
-}
-
-.dark-mode .state-item:hover {
-  background: rgba(0, 90, 156, 0.2);
-  border-color: var(--brand-secondary);
-  color: #60a5fa;
-}
-
-.dark-mode .state-code {
-  background: #334155;
-  color: #94a3b8;
+  transition: all 0.2s ease;
 }
 
 /* Tables Formatting */
@@ -182,11 +183,12 @@ table.table {
   border-radius: 8px;
   overflow: hidden;
   box-shadow: var(--shadow-sm);
+  background-color: var(--card-bg);
 }
 
 table.table th {
-  background-color: #f1f5f9;
-  color: #334155;
+  background-color: var(--state-bg);
+  color: var(--heading-color);
   font-weight: 600;
   text-transform: uppercase;
   font-size: 0.75rem;
@@ -199,6 +201,7 @@ table.table td {
   padding: 0.75rem 1rem;
   border-bottom: 1px solid var(--border-color);
   font-size: 0.9rem;
+  color: var(--text-color);
 }
 
 table.table tr:last-child td {
@@ -209,33 +212,14 @@ table.table tbody tr:hover td {
   background-color: var(--brand-light);
 }
 
-.dark-mode table.table th {
-  background-color: #1e293b;
-  color: #cbd5e1;
-  border-bottom-color: #334155;
-}
-
-.dark-mode table.table td {
-  border-bottom-color: #334155;
-}
-
-.dark-mode table.table tbody tr:hover td {
-  background-color: rgba(30, 41, 59, 0.5);
-}
-
 /* Math blocks styling */
 .math.display {
-  background: #f8fafc;
+  background: var(--state-bg);
   padding: 1rem;
   border-radius: 8px;
   border: 1px solid var(--border-color);
   margin: 1.5rem 0;
   box-shadow: var(--shadow-sm);
-}
-
-.dark-mode .math.display {
-  background: #1e293b;
-  border-color: #334155;
 }
 
 /* Contacts Layout */
@@ -250,7 +234,7 @@ table.table tbody tr:hover td {
   border: 1px solid var(--border-color);
   border-radius: 10px;
   padding: 1.5rem;
-  background: white;
+  background: var(--card-bg);
   box-shadow: var(--shadow-sm);
   transition: all 0.2s ease;
 }
@@ -263,8 +247,8 @@ table.table tbody tr:hover td {
 
 .contact-card h3 {
   margin-top: 0;
-  color: var(--brand-primary);
-  border-bottom: 2px solid var(--brand-light);
+  color: var(--brand-secondary) !important;
+  border-bottom: 2px solid var(--border-color);
   padding-bottom: 0.5rem;
 }
 
@@ -283,7 +267,7 @@ table.table tbody tr:hover td {
 
 .contact-info-label {
   font-weight: 600;
-  color: #64748b;
+  color: var(--state-code-color);
   width: 80px;
   display: inline-block;
 }
@@ -293,16 +277,11 @@ table.table tbody tr:hover td {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
   gap: 1rem;
-  background: #f8fafc;
+  background: var(--state-bg);
   padding: 1.25rem;
   border-radius: 8px;
   border: 1px solid var(--border-color);
   margin-top: 1.5rem;
-}
-
-.dark-mode .legend-grid {
-  background: #1e293b;
-  border-color: #334155;
 }
 
 .legend-item {
@@ -334,3 +313,24 @@ table.table tbody tr:hover td {
 .badge-comm { background-color: #8b5cf6; }
 .badge-credit { background-color: #ef4444; }
 .badge-info { background-color: #6b7280; }
+
+/* Custom Back to Top button tweaks */
+.back-to-top {
+  background-color: var(--brand-primary);
+  color: white !important;
+  border-radius: 50%;
+  box-shadow: var(--shadow-md);
+}
+
+.back-to-top:hover {
+  background-color: var(--brand-secondary);
+}
+
+/* Footer Custom Styling */
+.nav-footer {
+  border-top: 1px solid var(--border-color) !important;
+  background-color: var(--state-bg) !important;
+  color: var(--text-color) !important;
+  padding: 1.5rem 0 !important;
+  font-size: 0.9rem;
+}
