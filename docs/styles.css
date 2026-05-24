@@ -334,3 +334,116 @@ table.table tbody tr:hover td {
   padding: 1.5rem 0 !important;
   font-size: 0.9rem;
 }
+
+/* ========================================== */
+/* ADVANCED MOBILE FRIENDLINESS & TABLE SCROLL */
+/* ========================================== */
+
+/* Make tables scroll horizontally on small screens instead of stretching layout */
+.page-columns .content, .table-responsive {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+table.table {
+  min-width: 500px; /* Force scrollable container behavior on small screens */
+}
+
+/* Force image resizing on mobile */
+img {
+  max-width: 100% !important;
+  height: auto !important;
+}
+
+/* Responsive spacing and layouts */
+@media (max-width: 576px) {
+  h1 {
+    font-size: 1.8rem !important;
+  }
+  h2 {
+    font-size: 1.45rem !important;
+  }
+  h3 {
+    font-size: 1.25rem !important;
+  }
+  
+  .cover-card {
+    padding: 2rem 1.25rem !important;
+    margin-bottom: 1.5rem !important;
+  }
+  
+  .cover-card h1 {
+    font-size: 1.8rem !important;
+    line-height: 1.2 !important;
+  }
+  
+  .cover-card .subtitle {
+    font-size: 1rem !important;
+  }
+  
+  .state-grid {
+    grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)) !important;
+    gap: 0.5rem !important;
+  }
+  
+  .contact-grid {
+    grid-template-columns: 1fr !important;
+    gap: 1rem !important;
+  }
+  
+  .contact-card {
+    padding: 1.25rem !important;
+  }
+  
+  .legend-grid {
+    grid-template-columns: 1fr !important;
+    padding: 1rem !important;
+  }
+}
+
+/* ========================================== */
+/* QUARTO SEARCH MODAL CUSTOM CONTRAST STYLING */
+/* ========================================== */
+
+/* Force custom colors on Search dropdowns and overlays for readable text */
+.algolia-autocomplete, .search-results, #quarto-search-results, .search-results-container {
+  background-color: var(--card-bg) !important;
+  border: 1px solid var(--border-color) !important;
+  border-radius: 8px !important;
+  box-shadow: var(--shadow-lg) !important;
+  color: var(--text-color) !important;
+}
+
+.search-results .search-item, .search-item, .search-result {
+  border-bottom: 1px solid var(--border-color) !important;
+  color: var(--text-color) !important;
+}
+
+.search-results .search-item a, .search-item a {
+  color: var(--heading-color) !important;
+  text-decoration: none !important;
+}
+
+.search-item:hover, .search-result:hover, .search-item.active {
+  background-color: var(--brand-light) !important;
+}
+
+/* Style the text inside search highlighting */
+.search-results mark, .search-item mark, mark {
+  background-color: rgba(245, 158, 11, 0.3) !important;
+  color: var(--heading-color) !important;
+  border-radius: 2px !important;
+  padding: 0 0.15rem !important;
+}
+
+/* Fix navbar search layout overlaps */
+#quarto-search {
+  min-width: 180px;
+}
+
+@media (max-width: 768px) {
+  #quarto-search {
+    min-width: unset;
+    width: auto;
+  }
+}
