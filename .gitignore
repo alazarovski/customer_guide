@@ -19,3 +19,5 @@
 # Allow files inside images and site_libs
 !images/**
 !site_libs/**
+
+/.quarto/
