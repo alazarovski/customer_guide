@@ -4,20 +4,17 @@
 
 # Allow directories
 !*/
+!docs/
 !images/
-!site_libs/
 
-# Allow configuration and styles
+# Allow configuration, styles and metadata
 !.gitignore
+!.nojekyll
 !_quarto.yml
 !styles.css
-!search.json
 
-# Allow compiled HTML
-!*.html
-
-# Allow files inside images and site_libs
+# Allow files inside images and docs
 !images/**
-!site_libs/**
+!docs/**
 
 /.quarto/
