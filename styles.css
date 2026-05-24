@@ -452,3 +452,24 @@ img {
 .navbar-toggler {
   display: none !important;
 }
+
+/* Compact Sidebar Navigation */
+#quarto-sidebar {
+  padding-top: 0.5rem !important;
+}
+
+#quarto-sidebar .sidebar-item {
+  margin-top: 0.1rem !important;
+  margin-bottom: 0.1rem !important;
+}
+
+#quarto-sidebar a.sidebar-link {
+  padding: 0.3rem 0.6rem !important;
+  font-size: 0.92rem !important;
+  line-height: 1.4 !important;
+}
+
+#quarto-sidebar .sidebar-item-section {
+  margin-top: 0.4rem !important;
+  margin-bottom: 0.2rem !important;
+}
